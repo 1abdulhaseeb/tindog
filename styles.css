@@ -1,0 +1,199 @@
+
+body{
+font-family: 'Montserrat-black', sans-serif;
+
+}
+
+h1{
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.navbar{
+  padding: 0 0 10%;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item{
+  margin: 0 7%;
+}
+
+.nav-link{
+  font-family: 'Montserrat Light';
+  font-size: 1.2rem;
+}
+
+
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 5% 0 0;
+}
+
+/* Title Image */
+.tit-img{
+  width:60%;
+  position: absolute;
+  transform: rotate(25deg);
+  right: 30%;
+}
+
+.container-fluid{
+padding: 3% 15% 7%;
+}
+
+.col-lg-6{
+  color:white;
+}
+
+
+#title{
+  background-color: #ff4c68;
+}
+
+@media (max-width:1028px) {
+  .tit-img{
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title{
+    text-align: center;
+  }
+}
+
+
+/* Features */
+
+#features{
+  background-color: white;
+  position: relative;
+}
+.main-feat{
+  padding:15%
+}
+
+.feat-txt{
+font-family: 'Montserrat';
+font-size: 1.5rem;
+}
+.feat
+{
+  text-align: center;
+  padding: 3%;
+}
+
+.feat-p{
+  color:#8f8f8f;
+}
+
+.icon
+{
+  color:#ef8172;
+  margin-bottom: 5%;
+}
+
+.icon:hover
+{
+  color:#ff4c68;
+}
+
+
+/* ************TESTIMONIALS********************** */
+
+#testimonials{
+  background-color: #ef8172;
+
+  text-align: center;
+  color:white;
+
+}
+
+.test-text{
+
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.test-img{
+  margin-top:2%;
+  border-radius: 100%;
+  width:10%;
+}
+
+.carousel-item{
+  padding: 5% 15%;
+}
+
+
+/* PRESS */
+
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo{
+  width:10%;
+  margin:2% 5% 5% 0;
+}
+
+
+/* PRCING */
+
+#pricing{
+  padding:10%;
+  text-align: center;
+}
+
+.pricing-col{
+  padding:3% 2%;
+}
+
+
+/* CALL TO ACTION */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5%;
+}
+
+.cta-head{
+  font-weight: bold;
+  font-size:3.5rem;
+  line-height: 1.5;
+  color:white;
+  padding:0 10% 3%;
+}
+
+.cta-btn{
+    margin: 0 2% 0 0;
+
+}
+
+/* FOOTER */
+
+#footer{
+  background-color: white;
+  text-align: center;
+  padding: 5%;
+}
+
+.foot-para{
+  color:grey;
+  margin-top:0.5%;
+}
+
+.foot-icons{
+  margin:0.8%;
+}

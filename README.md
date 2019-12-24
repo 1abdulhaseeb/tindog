@@ -1,2 +1,1 @@
-# tindog
-first tindog wev
+TinDog Starting Files
